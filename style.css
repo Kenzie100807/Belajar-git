@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: lawngreen;
+}
+
+.container{
+    width: 800px;
+    background: white;
+    margin: auto;
+    padding: 10px;
+}
+
+.judul{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+}
+
+.judul span{
+    color: blue;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: orange;
+    padding: 5px;
+    font-size: 16px;
+}
+
+ul li a:hover{
+    background: blueviolet;
+    color: white;
+}
+
+.banner{
+    margin-top: 20px;
+    height: 250px;
+    background-size: cover;
+    border-top: 5px; 
+    border-bottom: 5px solid green;
+    background-image: url(article.jpg)
+}
+
+.kenzie{
+    margin-top: 15pxs;
+}
+
+.pe{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    line-height: 30px;
+}
+
+p{
+    padding: 15px;
+}
